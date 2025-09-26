@@ -1,5 +1,5 @@
-peso = float(input("Cual es tu peso en kg?"))
-altura = float(input("Cual es tu altura en metros?"))
+peso = float(input("Cual es tu peso en kg? "))
+altura = float(input("Cual es tu altura en metros? "))
 imc = (peso / (altura)**2)
 imcRound = round(imc, 2)
 print ("Tú indice de masa corportal es", imc ,"donde", imcRound , "es el indice de masa corporal calculado redondeado a los decimales")
