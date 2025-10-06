@@ -6,4 +6,4 @@ n = int(input("Introduce un número entero "))
 m = int(input("Introduce otro número entero "))
 c = n / m
 r = n % m
-print("El coeficiente y el resto de " , n , "y" , m , )
+print("El coeficiente y el resto de" , n , "y" , m , "es" , c ,"y" , r)
