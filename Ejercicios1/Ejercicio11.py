@@ -6,7 +6,7 @@
 #la cantidad de ahorros tras el primer, segundo y tercer años. Redondear cada
 #cantidad a dos decimales.
 
-ingreso = float(input("¿Cuanto quieres depositar?"))
+ingreso = float(input("¿Cuanto quieres depositar? "))
 ganancia = (ingreso*0.04)
 TotalGanancia= (ganancia + ingreso)
 print("Las ganancias el primer año serian", round(TotalGanancia,2))
