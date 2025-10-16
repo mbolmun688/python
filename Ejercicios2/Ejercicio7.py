@@ -3,5 +3,5 @@
 #de la arroba @) pero con dominio ceu.es.
 email = input("Introduce tu correo electrónico: ")
 nombre = email.split("@")[0]
-nuevo_email = nombre + "@ceu.es"
-print("Tu nuevo correo electrónico es:", nuevo_email)
+nuevoEmail = nombre + "@ceu.es"
+print("Tu nuevo correo electrónico es:", nuevoEmail)
