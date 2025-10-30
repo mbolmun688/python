@@ -5,5 +5,5 @@ num = int(input("Ingrese un número: "))
 cont = 1
 while cont <= num:
     if cont % 2 != 0:
-        print(cont)
+        print(cont, ",", end="")
     cont = cont + 1
