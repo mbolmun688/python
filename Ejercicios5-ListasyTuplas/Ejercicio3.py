@@ -9,7 +9,7 @@ lista1 = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 contador = len(lista1)
 notas = []
 for i in range (0,contador):
-    quest = float(int(f"Que sacaste en{ lista1[i]}:"))
+    quest = float(input(f"Que sacaste en {lista1[i]}:"))
     notas.append(quest)
 
 for i in range (0,contador):
